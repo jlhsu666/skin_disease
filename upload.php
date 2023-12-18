@@ -11,7 +11,7 @@ if ($_FILES['image']['error'] === UPLOAD_ERR_OK) {
     $tmp_path = $_FILES['image']['tmp_name'];
 
     // 指定服务器上存储上传文件的目录，确保该目录存在
-    $upload_dir = '/usr/share/nginx/html/uploads';
+    $upload_dir = '/uploads';
 
     // 将文件从临时路径移动到指定的目录
     $target_path = $upload_dir .'/'. $filename;
