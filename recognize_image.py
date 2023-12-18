@@ -9,7 +9,7 @@ def recognize_image(image_path):
     try:
         # 加载模型
         # 加载模型
-        model = load_model('/usr/share/nginx/html/working/skin_model.h5')
+        model = load_model('./working/skin_model.h5')
 
 
         # 读取并预处理图像
